@@ -1,0 +1,4 @@
+main.exe
+*.log
+temp/
+*.tmp
