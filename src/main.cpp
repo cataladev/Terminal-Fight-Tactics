@@ -16,3 +16,5 @@ int main() {
     std::cout << "Exiting the Game." << std::endl;
     return 0;
 }
+
+//TODO: Implement engine loop ie reading input updating state rendering output
