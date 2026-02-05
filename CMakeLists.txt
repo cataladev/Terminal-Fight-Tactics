@@ -5,7 +5,14 @@ project(GameProject)
 set(CMAKE_CXX_STANDARD 11)
 
 # Add the executable target for the game
-add_executable(game src/main.cpp)
+add_executable(game
+  src/main.cpp
+  src/app/App.cpp
+  src/app/Commands.cpp
+  src/app/Screens.cpp
+  src/app/Util.cpp
+)
+target_include_directories(game PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 # Enable testing
 enable_testing()
